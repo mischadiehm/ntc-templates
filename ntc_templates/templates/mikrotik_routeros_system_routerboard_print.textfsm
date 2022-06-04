@@ -1,3 +1,4 @@
+Value comment (\S+[\S ]*\S)
 Value routerboard (\S+)
 Value board_name (\S+)
 Value hardware_model (\S+)
@@ -9,6 +10,7 @@ Value current_firmware ([\d.]+)
 Value upgrade_firmware ([\d.]+)
 
 Start
+  ^\s*;;;\s${comment}
   ^\s*routerboard:\s${routerboard}
   ^\s*board-name:\s${board_name}
   ^\s*model:\s${hardware_model}
