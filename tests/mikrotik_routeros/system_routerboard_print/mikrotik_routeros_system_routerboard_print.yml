@@ -1,6 +1,7 @@
 ---
 parsed_sample:
-  - routerboard: "yes"
+  - comment: "Firmware upgraded successfully, please reboot for changes to take effect!"
+    routerboard: "yes"
     board_name: "hEX"
     hardware_model: "RB750Gr3"
     revision: "r4"
